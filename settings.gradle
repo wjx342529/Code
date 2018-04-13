@@ -1,0 +1,6 @@
+rootProject.name = 'code'
+include 'lalal'
+include 'www'
+include 'Solr'
+findProject(':Solr')?.name = 'solr'
+
