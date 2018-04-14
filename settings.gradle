@@ -1,6 +1,5 @@
 rootProject.name = 'code'
-include 'lalal'
-include 'www'
 include 'Solr'
+include 'Springboot'
 findProject(':Solr')?.name = 'solr'
-
+findProject(':Springboot')?.name = 'springboot'
